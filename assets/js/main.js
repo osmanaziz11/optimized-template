@@ -47,6 +47,8 @@
     e('#navbar').classList.toggle('navbar-mobile'),
       this.classList.toggle('bi-list'),
       this.classList.toggle('bi-x');
+    e('#open').classList.toggle('d-none');
+    e('#close').classList.toggle('d-block');
   }),
     t(
       'click',

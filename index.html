@@ -42,31 +42,39 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
-        <img src="assets/img/logo.webp" alt="image">
+        <img src="assets/img/logo.webp" width="40" height="39" alt="image">
         <span>RisRos</span>
       </a>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li class="mobile-logo d-none"><a href="index.html" class="logo d-flex align-items-center">
-              <img src="assets/img/logo.webp" alt="logo">
+          <li class="mobile-logo d-flex"><a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/logo.webp" width="40" height="39" alt="image">
               <span>RisRos</span>
             </a></li>
           <li><a class="nav-link scrollto" href="#about">Priser</a></li>
           <li><a class="nav-link scrollto" href="#about">Book demo</a></li>
           <li><a class="nav-link scrollto active" href="#services">Log ind</a></li>
-          <li class="btn-li">
+          <li class="btn-li d-flex justify-content-center">
             <a class="btn ms-5 px-4 py-2 headerbtn text-white button" style="background-color: #2557E0;">Opret
               gratis
               konto</a>
           </li>
         </ul>
 
-        <span class="mobile-nav-toggle">
-          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
-            <path fill="none" stroke="#012970" stroke-linecap="round" stroke-width="1.5" d="M20 7H4m16 5H4m16 5H4" />
-          </svg>
-        </span>
+        <div class="mobile-nav-toggle">
+          <span id="open">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+              <path fill="none" stroke="#012970" stroke-linecap="round" stroke-width="1.5" d="M20 7H4m16 5H4m16 5H4" />
+            </svg>
+          </span>
+          <span id="close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+              <path fill="white"
+                d="M16.066 8.995a.75.75 0 1 0-1.06-1.061L12 10.939L8.995 7.934a.75.75 0 1 0-1.06 1.06L10.938 12l-3.005 3.005a.75.75 0 0 0 1.06 1.06L12 13.06l3.005 3.006a.75.75 0 0 0 1.06-1.06L13.062 12l3.005-3.005Z" />
+            </svg>
+          </span>
+        </div>
       </nav>
 
     </div>
@@ -158,7 +166,7 @@
         </div>
 
         <div class="col-lg-6 hero-img text-center" data-aos="zoom-out" data-aos-delay="200">
-          <img src="assets/img/1-removebg-preview.webp " class="img-fluid" alt="bg">
+          <img src="assets/img/1-removebg-preview.webp" width="auto" height="auto" class="img-fluid" alt="bg">
         </div>
       </div>
     </div>
@@ -174,7 +182,7 @@
         <div class="col-lg-12 text-center">Flere tusinder virksomheder bruger allerede NPS® målinger</div>
 
         <div class="col-md-12 mt-5">
-          <img src="assets/img/brands.webp" alt="image" class="w-100">
+          <img src="assets/img/brands.webp" width="auto" height="auto" alt="image" class="w-100">
         </div>
       </div>
     </div>
@@ -191,10 +199,10 @@
         </div>
 
         <div class="col-md-7 text-center">
-          <img src="assets/img/center-img.webp" alt="image" class="feedback-img">
+          <img src="assets/img/center-img.webp" alt="image" width="auto" height="auto" class="feedback-img">
         </div>
 
-        <img src="assets/img/grey-bg.webp" alt="image" class="w-100 mx-0 px-0 grey-bg"
+        <img src="assets/img/grey-bg.webp" alt="image" width="auto" height="auto" class="w-100 mx-0 px-0 grey-bg"
           style="position: relative;top: 0px;z-index:-1">
       </div>
 
@@ -206,14 +214,20 @@
       <div class="container" data-aos="fade-up">
 
         <div class="row justify-content-center py-4">
+          <div class="col-lg-4 order-lg-2">
+            <!-- <lottie-player style="height: auto;" src="/assets/js/Blogging.json" loop autoplay></lottie-player> -->
+            <video autoplay loop class="w-100" muted>
+              <source src="./assets/gif/blogging.webm" type="video/webm">
+              Your browser does not support the video tag.
+            </video>
+          </div>
 
-          <div class="col-lg-5 col-sm-9 mt-5 mt-lg-0 d-flex">
+          <div class="col-lg-5 col-sm-9 mt-5 mt-lg-0 d-flex order-lg-1">
             <div class="row align-self-center gy-4">
               <div class="col-md-12">
                 <h3>
                   <span style="color : #2557E0">1.</span> Tag pulsen på din kundetilfredshed
                 </h3>
-
               </div>
               <div class="col-md-11 mt-0">
                 <p>RisRos måler din kundeloyalitet med automatiseret NPS målinger og præsenterer dig for resultaterne på
@@ -222,24 +236,13 @@
               </div>
             </div>
           </div>
-
-          <div class="col-lg-4">
-            <!-- <lottie-player style="height: auto;" src="/assets/js/Blogging.json" loop autoplay></lottie-player> -->
-            <video autoplay loop class="w-100" muted>
-              <source src="./assets/gif/blogging.webm" type="video/webm">
-              Your browser does not support the video tag.
-            </video>
-
-
-          </div>
-
         </div>
+
 
         <div class="row justify-content-center py-4">
 
           <div class="col-lg-4">
-            <!-- <lottie-player style="height: auto;" src="/assets/js/Security - Colour.json" loop autoplay></lottie-player> -->
-            <!-- <img src="assets/img/5.webp" class="img-fluid" alt="image"> -->
+
             <video autoplay loop class="w-100" muted>
               <source src="./assets/gif/security.webm" type="video/webm">
               Your browser does not support the video tag.
@@ -265,7 +268,7 @@
 
         <div class="row justify-content-center py-4">
 
-          <div class="col-lg-5 col-sm-9 mt-5 mt-lg-0 d-flex">
+          <div class="col-lg-5 col-sm-9 mt-5 mt-lg-0 d-flex order-lg-1 order-2">
             <div class="row align-self-center gy-4">
               <div class="col-md-12">
                 <h3>
@@ -280,10 +283,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
-            <!-- <lottie-player style="height: auto;" src="/assets/js/Chatting Using Apps - Colour.json" loop
-              autoplay></lottie-player> -->
-            <!-- <img src="assets/img/6.webp" class="img-fluid" alt="image"> -->
+          <div class="col-lg-4 order-lg-2 order-1">
             <video autoplay loop class="w-100" muted>
               <source src="./assets/gif/chatting.webm" type="video/webm">
               Your browser does not support the video tag.
@@ -295,8 +295,7 @@
         <div class="row justify-content-center py-4">
 
           <div class="col-lg-4">
-            <!-- <img src="assets/img/7.webp" class="img-fluid" alt="image"> -->
-            <!-- <lottie-player style="height: auto;" src="/assets/js/Growth Animation.json" loop autoplay></lottie-player> -->
+
             <video autoplay loop class="w-100" muted>
               <source src="./assets/gif/growth.webm" type="video/webm">
               Your browser does not support the video tag.
@@ -362,7 +361,8 @@
         </div>
 
         <div class="col-md-4 profilechild2 px-0">
-          <img src="assets/img/modelpattern.webp" alt="image" class="model-pattern" id="model-pattern">
+          <img src="assets/img/modelpattern.webp" alt="image" width="auto" height="auto" class="model-pattern"
+            id="model-pattern">
         </div>
 
       </div>
