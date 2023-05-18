@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.webp" rel="icon">
+  <link href="assets/img/apple-touch-icon.webp" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,600,600i,700,700i&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="stylesheet">
+
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.min.css" rel="stylesheet">
+
+
+  <title>XD to Bootstrap</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Open+Sans:wght@400;500;600&display=swap');
+  </style>
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.webp" alt="image">
+        <span>RisRos</span>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li class="mobile-logo d-none"><a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/logo.webp" alt="logo">
+              <span>RisRos</span>
+            </a></li>
+          <li><a class="nav-link scrollto" href="#about">Priser</a></li>
+          <li><a class="nav-link scrollto" href="#about">Book demo</a></li>
+          <li><a class="nav-link scrollto active" href="#services">Log ind</a></li>
+          <li class="btn-li">
+            <a class="btn ms-5 px-4 py-2 headerbtn text-white button" style="background-color: #2557E0;">Opret
+              gratis
+              konto</a>
+          </li>
+        </ul>
+
+        <span class="mobile-nav-toggle">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+            <path fill="none" stroke="#012970" stroke-linecap="round" stroke-width="1.5" d="M20 7H4m16 5H4m16 5H4" />
+          </svg>
+        </span>
+      </nav>
+
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-xs-12 d-flex flex-column justify-content-center headingcontent">
+          <h1 data-aos="fade-up">Lyt til dine kunder <br> - det betaler sig</h1>
+          <p data-aos="fade-up" data-aos-delay="400">RisRos hjælper dig med at måle virksomhedens kundetilfredshed,
+            beskytte dens omdømme og tiltrække nye kunder.
+          </p>
+
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-center text-lg-center buttonparent mt-3">
+              <a href=""
+                class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center py-4">
+                <span>Prøv gratis</span>
+              </a>
+
+              <a href=""
+                class="btn-book-demo scrollto d-inline-flex align-items-center justify-content-center align-self-center py-4">
+                <span>Book demo</span>
+              </a>
+            </div>
+
+            <div class="row mt-3 justify-content-center" style="display: inline-block;">
+
+              <div class="col-md-12">
+                <div class="row justify-content-center">
+                  <div class="col-md-4 text-center checkmarks">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                      <path fill="#212529"
+                        d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10s10-4.5 10-10S17.5 2 12 2m-2 15l-5-5l1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9Z" />
+                    </svg>&nbsp; Gratis oprettelse
+                  </div>
+
+                  <div class="col-md-4 text-center checkmarks">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                      <path fill="#212529"
+                        d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10s10-4.5 10-10S17.5 2 12 2m-2 15l-5-5l1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9Z" />
+                    </svg>&nbsp; Ingen binding
+                  </div>
+
+                  <div class="col-md-4 text-center checkmarks">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                      <path fill="#212529"
+                        d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10s10-4.5 10-10S17.5 2 12 2m-2 15l-5-5l1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9Z" />
+                    </svg>&nbsp; Automatisk opsigelse
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-md-12 mt-3 fivestar d-flex justify-content-center align-items-center">
+                <b>Fantastisk</b>
+
+                <div class="d-flex mx-1">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 32 32">
+                    <path fill="#ffb938"
+                      d="M14.615 4.928c.487-.986 1.284-.986 1.77 0l2.25 4.554c.486.986 1.775 1.923 2.864 2.08l5.023.73c1.09.16 1.335.917.547 1.685l-3.636 3.544c-.788.77-1.28 2.284-1.095 3.37l.858 5.003c.186 1.085-.46 1.553-1.433 1.04l-4.495-2.362c-.974-.51-2.567-.51-3.54 0l-4.496 2.364c-.974.512-1.618.044-1.432-1.04l.858-5.005c.186-1.086-.307-2.6-1.094-3.37L3.93 13.978c-.788-.768-.542-1.525.547-1.684l5.026-.73c1.088-.158 2.377-1.095 2.864-2.08l2.248-4.555z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 32 32">
+                    <path fill="#ffb938"
+                      d="M14.615 4.928c.487-.986 1.284-.986 1.77 0l2.25 4.554c.486.986 1.775 1.923 2.864 2.08l5.023.73c1.09.16 1.335.917.547 1.685l-3.636 3.544c-.788.77-1.28 2.284-1.095 3.37l.858 5.003c.186 1.085-.46 1.553-1.433 1.04l-4.495-2.362c-.974-.51-2.567-.51-3.54 0l-4.496 2.364c-.974.512-1.618.044-1.432-1.04l.858-5.005c.186-1.086-.307-2.6-1.094-3.37L3.93 13.978c-.788-.768-.542-1.525.547-1.684l5.026-.73c1.088-.158 2.377-1.095 2.864-2.08l2.248-4.555z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 32 32">
+                    <path fill="#ffb938"
+                      d="M14.615 4.928c.487-.986 1.284-.986 1.77 0l2.25 4.554c.486.986 1.775 1.923 2.864 2.08l5.023.73c1.09.16 1.335.917.547 1.685l-3.636 3.544c-.788.77-1.28 2.284-1.095 3.37l.858 5.003c.186 1.085-.46 1.553-1.433 1.04l-4.495-2.362c-.974-.51-2.567-.51-3.54 0l-4.496 2.364c-.974.512-1.618.044-1.432-1.04l.858-5.005c.186-1.086-.307-2.6-1.094-3.37L3.93 13.978c-.788-.768-.542-1.525.547-1.684l5.026-.73c1.088-.158 2.377-1.095 2.864-2.08l2.248-4.555z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 32 32">
+                    <path fill="#ffb938"
+                      d="M14.615 4.928c.487-.986 1.284-.986 1.77 0l2.25 4.554c.486.986 1.775 1.923 2.864 2.08l5.023.73c1.09.16 1.335.917.547 1.685l-3.636 3.544c-.788.77-1.28 2.284-1.095 3.37l.858 5.003c.186 1.085-.46 1.553-1.433 1.04l-4.495-2.362c-.974-.51-2.567-.51-3.54 0l-4.496 2.364c-.974.512-1.618.044-1.432-1.04l.858-5.005c.186-1.086-.307-2.6-1.094-3.37L3.93 13.978c-.788-.768-.542-1.525.547-1.684l5.026-.73c1.088-.158 2.377-1.095 2.864-2.08l2.248-4.555z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 32 32">
+                    <path fill="#ffb938"
+                      d="M14.615 4.928c.487-.986 1.284-.986 1.77 0l2.25 4.554c.486.986 1.775 1.923 2.864 2.08l5.023.73c1.09.16 1.335.917.547 1.685l-3.636 3.544c-.788.77-1.28 2.284-1.095 3.37l.858 5.003c.186 1.085-.46 1.553-1.433 1.04l-4.495-2.362c-.974-.51-2.567-.51-3.54 0l-4.496 2.364c-.974.512-1.618.044-1.432-1.04l.858-5.005c.186-1.086-.307-2.6-1.094-3.37L3.93 13.978c-.788-.768-.542-1.525.547-1.684l5.026-.73c1.088-.158 2.377-1.095 2.864-2.08l2.248-4.555z" />
+                  </svg>
+                </div>
+                baseret pa 200+ bedommleser
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 hero-img text-center" data-aos="zoom-out" data-aos-delay="200">
+          <img src="assets/img/1-removebg-preview.webp " class="img-fluid" alt="bg">
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- End Hero -->
+
+  <main id="main">
+
+    <!-- Brands Section -->
+    <div class="container" id="brands">
+      <div class="row justify-content-center">
+        <div class="col-lg-12 text-center">Flere tusinder virksomheder bruger allerede NPS® målinger</div>
+
+        <div class="col-md-12 mt-5">
+          <img src="assets/img/brands.webp" alt="image" class="w-100">
+        </div>
+      </div>
+    </div>
+    <!-- End Of Brands Section -->
+
+    <!-- Feedback Section -->
+    <div class="container-fluid pb-5 px-0 afterbrandsmain-parent">
+
+      <div class="row justify-content-center mt-5 pt-5 afterbrandsmain">
+        <div class="col-md-7 text-center mt-5 afterbrands">
+          <h2>Skab vækst gennem feedback</h2>
+          <p>RisRos giver din virksomhed automatiseret indsigt i den enkelte kundeoplevelse og den samlede
+            kundetilfredshed. Brug det til at mindske kundefrafald, sælge mere og tiltrække nye kunder</p>
+        </div>
+
+        <div class="col-md-7 text-center">
+          <img src="assets/img/center-img.webp" alt="image" class="feedback-img">
+        </div>
+
+        <img src="assets/img/grey-bg.webp" alt="image" class="w-100 mx-0 px-0 grey-bg"
+          style="position: relative;top: 0px;z-index:-1">
+      </div>
+
+    </div>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="row justify-content-center py-4">
+
+          <div class="col-lg-5 col-sm-9 mt-5 mt-lg-0 d-flex">
+            <div class="row align-self-center gy-4">
+              <div class="col-md-12">
+                <h3>
+                  <span style="color : #2557E0">1.</span> Tag pulsen på din kundetilfredshed
+                </h3>
+
+              </div>
+              <div class="col-md-11 mt-0">
+                <p>RisRos måler din kundeloyalitet med automatiseret NPS målinger og præsenterer dig for resultaterne på
+                  en
+                  simpel måde.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <!-- <lottie-player style="height: auto;" src="/assets/js/Blogging.json" loop autoplay></lottie-player> -->
+            <video autoplay loop class="w-100" muted>
+              <source src="./assets/gif/blogging.webm" type="video/webm">
+              Your browser does not support the video tag.
+            </video>
+
+
+          </div>
+
+        </div>
+
+        <div class="row justify-content-center py-4">
+
+          <div class="col-lg-4">
+            <!-- <lottie-player style="height: auto;" src="/assets/js/Security - Colour.json" loop autoplay></lottie-player> -->
+            <!-- <img src="assets/img/5.webp" class="img-fluid" alt="image"> -->
+            <video autoplay loop class="w-100" muted>
+              <source src="./assets/gif/security.webm" type="video/webm">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+          <div class="col-lg-5 col-sm-9 mt-5 mt-lg-0 d-flex">
+            <div class="row align-self-center gy-4">
+              <div class="col-md-12">
+                <h3>
+                  <span style="color : #2557E0">2.</span> Beskyt virksomhedens omdømme
+                </h3>
+
+              </div>
+              <div class="col-md-11 mt-0">
+                <p>Utilfredse kunder vil høres og forstås. Vi giver dem en lukket kanal til dig, så du kan tage
+                  eventuelle problemer i opløbet.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row justify-content-center py-4">
+
+          <div class="col-lg-5 col-sm-9 mt-5 mt-lg-0 d-flex">
+            <div class="row align-self-center gy-4">
+              <div class="col-md-12">
+                <h3>
+                  <span style="color : #2557E0">3.</span> Sælg mere til eksisterende kunder
+                </h3>
+
+              </div>
+              <div class="col-md-11 mt-0">
+                <p>RisRos fremhæver de kunder, som med størst sandsynlighed vil købe mere af din virksomhed og anbefale
+                  den til andre.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <!-- <lottie-player style="height: auto;" src="/assets/js/Chatting Using Apps - Colour.json" loop
+              autoplay></lottie-player> -->
+            <!-- <img src="assets/img/6.webp" class="img-fluid" alt="image"> -->
+            <video autoplay loop class="w-100" muted>
+              <source src="./assets/gif/chatting.webm" type="video/webm">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+        </div>
+
+        <div class="row justify-content-center py-4">
+
+          <div class="col-lg-4">
+            <!-- <img src="assets/img/7.webp" class="img-fluid" alt="image"> -->
+            <!-- <lottie-player style="height: auto;" src="/assets/js/Growth Animation.json" loop autoplay></lottie-player> -->
+            <video autoplay loop class="w-100" muted>
+              <source src="./assets/gif/growth.webm" type="video/webm">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+          <div class="col-lg-5 col-sm-9 mt-5 mt-lg-0 d-flex">
+            <div class="row align-self-center gy-4">
+              <div class="col-md-12">
+                <h3>
+                  <span style="color : #2557E0">4.</span> Tiltræk nye kunder
+                </h3>
+
+              </div>
+              <div class="col-md-11 mt-0">
+                <p>Del din postive feedback på Instagram, Facebook og Google for at tiltrække flere nye kunder til din
+                  virksomhed.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Profile Section -->
+    <div class="container-fluid px-0 profile">
+      <div class="row justify-content-center text-center py-5 profilechild">
+
+        <div class="col-md-2"></div>
+        <div class="col-md-4 py-5 px-4  d-flex justify-content-center  flex-column profilecontent">
+          <div class="profilestars d-flex justify-content-center align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 32 32">
+              <path fill="#ffb938"
+                d="M14.615 4.928c.487-.986 1.284-.986 1.77 0l2.25 4.554c.486.986 1.775 1.923 2.864 2.08l5.023.73c1.09.16 1.335.917.547 1.685l-3.636 3.544c-.788.77-1.28 2.284-1.095 3.37l.858 5.003c.186 1.085-.46 1.553-1.433 1.04l-4.495-2.362c-.974-.51-2.567-.51-3.54 0l-4.496 2.364c-.974.512-1.618.044-1.432-1.04l.858-5.005c.186-1.086-.307-2.6-1.094-3.37L3.93 13.978c-.788-.768-.542-1.525.547-1.684l5.026-.73c1.088-.158 2.377-1.095 2.864-2.08l2.248-4.555z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 32 32">
+              <path fill="#ffb938"
+                d="M14.615 4.928c.487-.986 1.284-.986 1.77 0l2.25 4.554c.486.986 1.775 1.923 2.864 2.08l5.023.73c1.09.16 1.335.917.547 1.685l-3.636 3.544c-.788.77-1.28 2.284-1.095 3.37l.858 5.003c.186 1.085-.46 1.553-1.433 1.04l-4.495-2.362c-.974-.51-2.567-.51-3.54 0l-4.496 2.364c-.974.512-1.618.044-1.432-1.04l.858-5.005c.186-1.086-.307-2.6-1.094-3.37L3.93 13.978c-.788-.768-.542-1.525.547-1.684l5.026-.73c1.088-.158 2.377-1.095 2.864-2.08l2.248-4.555z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 32 32">
+              <path fill="#ffb938"
+                d="M14.615 4.928c.487-.986 1.284-.986 1.77 0l2.25 4.554c.486.986 1.775 1.923 2.864 2.08l5.023.73c1.09.16 1.335.917.547 1.685l-3.636 3.544c-.788.77-1.28 2.284-1.095 3.37l.858 5.003c.186 1.085-.46 1.553-1.433 1.04l-4.495-2.362c-.974-.51-2.567-.51-3.54 0l-4.496 2.364c-.974.512-1.618.044-1.432-1.04l.858-5.005c.186-1.086-.307-2.6-1.094-3.37L3.93 13.978c-.788-.768-.542-1.525.547-1.684l5.026-.73c1.088-.158 2.377-1.095 2.864-2.08l2.248-4.555z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 32 32">
+              <path fill="#ffb938"
+                d="M14.615 4.928c.487-.986 1.284-.986 1.77 0l2.25 4.554c.486.986 1.775 1.923 2.864 2.08l5.023.73c1.09.16 1.335.917.547 1.685l-3.636 3.544c-.788.77-1.28 2.284-1.095 3.37l.858 5.003c.186 1.085-.46 1.553-1.433 1.04l-4.495-2.362c-.974-.51-2.567-.51-3.54 0l-4.496 2.364c-.974.512-1.618.044-1.432-1.04l.858-5.005c.186-1.086-.307-2.6-1.094-3.37L3.93 13.978c-.788-.768-.542-1.525.547-1.684l5.026-.73c1.088-.158 2.377-1.095 2.864-2.08l2.248-4.555z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 32 32">
+              <path fill="#ffb938"
+                d="M14.615 4.928c.487-.986 1.284-.986 1.77 0l2.25 4.554c.486.986 1.775 1.923 2.864 2.08l5.023.73c1.09.16 1.335.917.547 1.685l-3.636 3.544c-.788.77-1.28 2.284-1.095 3.37l.858 5.003c.186 1.085-.46 1.553-1.433 1.04l-4.495-2.362c-.974-.51-2.567-.51-3.54 0l-4.496 2.364c-.974.512-1.618.044-1.432-1.04l.858-5.005c.186-1.086-.307-2.6-1.094-3.37L3.93 13.978c-.788-.768-.542-1.525.547-1.684l5.026-.73c1.088-.158 2.377-1.095 2.864-2.08l2.248-4.555z" />
+            </svg>
+
+          </div>
+          <p>"RisRos er en nem og enkel måde at arbejde med kundetilfredshed på. Vi får automatisk feedback,
+            der er
+            brugbart og nemt at arbejde videre med."</p>
+          <h5>Louise Sue</h5>
+          <h6>VIRKSOMHEDSEJER</h6>
+        </div>
+
+        <div class="col-md-4 profilechild2 px-0">
+          <img src="assets/img/modelpattern.webp" alt="image" class="model-pattern" id="model-pattern">
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Arrow Section -->
+    <div class="container-fluid pb-5 arrowsection">
+      <div class="row text-center justify-content-center hero2 mb-5">
+        <div class="col-lg-7 d-flex flex-column justify-content-center mt-5">
+          <h2 data-aos="fade-up">Man skal se det, før man tror det</h2>
+
+          <div class="row justify-content-center">
+            <div class="col-md-7 pt-3">
+              <p data-aos="fade-up" data-aos-delay="400">Tag ikke vores ord for det. Prøv det selv. Det tager kun
+                nogle
+                få minutter at sætte op.
+              </p>
+            </div>
+          </div>
+
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-center text-lg-center buttonparent buttonparent1 w-100" style="padding-left: 0;">
+              <a href=""
+                class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center py-4 px-5">
+                <span>Prøv gratis</span>
+              </a>
+
+              <a href=""
+                class="btn-book-demo scrollto d-inline-flex align-items-center justify-content-center align-self-center py-4 ms-3">
+                <span>Book demo</span>
+              </a>
+            </div>
+
+
+
+            <div class="row mt-3 justify-content-center">
+
+              <div class="col-md-12">
+                <div class="row justify-content-center">
+                  <div class="col-md-4 text-center checkmarks">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                      <path fill="#212529"
+                        d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10s10-4.5 10-10S17.5 2 12 2m-2 15l-5-5l1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9Z" />
+                    </svg> &nbsp; Gratis i 14 dage
+                  </div>
+
+                  <div class="col-md-4 text-center checkmarks">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                      <path fill="#212529"
+                        d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10s10-4.5 10-10S17.5 2 12 2m-2 15l-5-5l1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9Z" />
+                    </svg> &nbsp; Ingen binding
+                  </div>
+
+                  <div class="col-md-4 text-center checkmarks">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                      <path fill="#212529"
+                        d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10s10-4.5 10-10S17.5 2 12 2m-2 15l-5-5l1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9Z" />
+                    </svg> &nbsp; Automatisk opsigelse
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-md-10 mt-3 fivestar d-flex justify-content-center align-items-center">
+                <b>Fantastisk</b>
+
+
+                <div class="d-flex mx-1">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 32 32">
+                    <path fill="#ffb938"
+                      d="M14.615 4.928c.487-.986 1.284-.986 1.77 0l2.25 4.554c.486.986 1.775 1.923 2.864 2.08l5.023.73c1.09.16 1.335.917.547 1.685l-3.636 3.544c-.788.77-1.28 2.284-1.095 3.37l.858 5.003c.186 1.085-.46 1.553-1.433 1.04l-4.495-2.362c-.974-.51-2.567-.51-3.54 0l-4.496 2.364c-.974.512-1.618.044-1.432-1.04l.858-5.005c.186-1.086-.307-2.6-1.094-3.37L3.93 13.978c-.788-.768-.542-1.525.547-1.684l5.026-.73c1.088-.158 2.377-1.095 2.864-2.08l2.248-4.555z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 32 32">
+                    <path fill="#ffb938"
+                      d="M14.615 4.928c.487-.986 1.284-.986 1.77 0l2.25 4.554c.486.986 1.775 1.923 2.864 2.08l5.023.73c1.09.16 1.335.917.547 1.685l-3.636 3.544c-.788.77-1.28 2.284-1.095 3.37l.858 5.003c.186 1.085-.46 1.553-1.433 1.04l-4.495-2.362c-.974-.51-2.567-.51-3.54 0l-4.496 2.364c-.974.512-1.618.044-1.432-1.04l.858-5.005c.186-1.086-.307-2.6-1.094-3.37L3.93 13.978c-.788-.768-.542-1.525.547-1.684l5.026-.73c1.088-.158 2.377-1.095 2.864-2.08l2.248-4.555z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 32 32">
+                    <path fill="#ffb938"
+                      d="M14.615 4.928c.487-.986 1.284-.986 1.77 0l2.25 4.554c.486.986 1.775 1.923 2.864 2.08l5.023.73c1.09.16 1.335.917.547 1.685l-3.636 3.544c-.788.77-1.28 2.284-1.095 3.37l.858 5.003c.186 1.085-.46 1.553-1.433 1.04l-4.495-2.362c-.974-.51-2.567-.51-3.54 0l-4.496 2.364c-.974.512-1.618.044-1.432-1.04l.858-5.005c.186-1.086-.307-2.6-1.094-3.37L3.93 13.978c-.788-.768-.542-1.525.547-1.684l5.026-.73c1.088-.158 2.377-1.095 2.864-2.08l2.248-4.555z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 32 32">
+                    <path fill="#ffb938"
+                      d="M14.615 4.928c.487-.986 1.284-.986 1.77 0l2.25 4.554c.486.986 1.775 1.923 2.864 2.08l5.023.73c1.09.16 1.335.917.547 1.685l-3.636 3.544c-.788.77-1.28 2.284-1.095 3.37l.858 5.003c.186 1.085-.46 1.553-1.433 1.04l-4.495-2.362c-.974-.51-2.567-.51-3.54 0l-4.496 2.364c-.974.512-1.618.044-1.432-1.04l.858-5.005c.186-1.086-.307-2.6-1.094-3.37L3.93 13.978c-.788-.768-.542-1.525.547-1.684l5.026-.73c1.088-.158 2.377-1.095 2.864-2.08l2.248-4.555z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 32 32">
+                    <path fill="#ffb938"
+                      d="M14.615 4.928c.487-.986 1.284-.986 1.77 0l2.25 4.554c.486.986 1.775 1.923 2.864 2.08l5.023.73c1.09.16 1.335.917.547 1.685l-3.636 3.544c-.788.77-1.28 2.284-1.095 3.37l.858 5.003c.186 1.085-.46 1.553-1.433 1.04l-4.495-2.362c-.974-.51-2.567-.51-3.54 0l-4.496 2.364c-.974.512-1.618.044-1.432-1.04l.858-5.005c.186-1.086-.307-2.6-1.094-3.37L3.93 13.978c-.788-.768-.542-1.525.547-1.684l5.026-.73c1.088-.158 2.377-1.095 2.864-2.08l2.248-4.555z" />
+                  </svg>
+                </div>
+
+                baseret pa 200+ bedommleser
+              </div>
+            </div>
+          </div>
+
+          <img src="assets/img/arrow.webp" alt="image" class="arrow">
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-top">
+      <div class="container-fluid">
+        <div class="row gy-4 justify-content-center">
+
+          <div class="col-md-2 px-0 text-center footerheading"><b>Relateret indhold:</b></div>
+          <div class="col-md-1 px-0"><a href="" class="text-dark">Hvad er NPS?</a></div>
+          <div class="col-md-2 px-0"><a href="" class="text-dark">Beskyt virksomhedens omdømme</a></div>
+          <div class="col-md-2"><a href="" class="text-dark">Sælg mere til dine kunder</a></div>
+          <div class="col-md-2 px-0"><a href="" class="text-dark">Tiltræk nye kunder</a></div>
+
+        </div>
+
+        <div class="row ps-5 py-5 footerdesc justify-content-center">
+          <div class="col-lg-9">
+            <a href="" class="text-dark">Handelsbetingelser</a><span class="mx-3">·</span><a href=""
+              class="text-dark">Privatlivspolitik</a><span class="mx-3">·</span><a href="" class="text-dark">GDPR</a>
+            <br>
+            Emdrupvej 28A, 2100 København<span class="mx-3">·</span>CVR: 34451648<span
+              class="mx-3">·</span>hello@risros.com<span class="mx-3">·</span>+ 45 91 52 52
+            98 <br>
+            NPS er en international standard for måling af kundetilfredshed udarbejdet af Fred Reichheld. NPS®, Net
+            Promoter® og Net Promoter® <br> Score er registrerede varemærker tilhørende Satmetrix Systems, Inc., Bain &
+            Company og Fred Reichheld.
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+  <!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><svg
+      xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+      <g transform="translate(0 24) scale(1 -1)">
+        <path fill="white"
+          d="M12 19.575q-.2 0-.375-.062T11.3 19.3l-6.6-6.6q-.3-.3-.3-.712t.3-.713q.3-.3.7-.3t.7.3l4.9 4.9v-11.2q0-.425.288-.7T12 4q.425 0 .713.288T13 5v11.175l4.9-4.9q.3-.3.7-.3t.7.3q.3.3.3.713t-.3.712l-6.6 6.6q-.15.15-.325.213t-.375.062Z" />
+      </g>
+    </svg></a>
+
+
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    if (window.innerWidth <= 550) {
+      document.querySelector("img#model-pattern").src = "assets/img/modelpatternmobile.webp";
+      document.querySelector("img#model-pattern").parentNode.classList.add("p-0");
+    }
+    if (window.innerWidth > 550 && window.innerWidth <= 900) {
+      document.querySelector("img#model-pattern").src = "assets/img/modelpatterntab.webp";
+      document.querySelector("img#model-pattern").parentNode.classList.add("p-0");
+    }
+    if (window.innerWidth <= 980) {
+      document.getElementById("features2").style.display = "block";
+      document.getElementById("features").style.display = "none";
+      document.getElementById("brands").style.display = "none";
+      document.querySelector(".hero-img").style.display = "none";
+      document.querySelector(".mobile-logo").classList.remove("d-none");
+      document.querySelector(".mobile-logo").classList.add("d-flex");
+
+      document.querySelectorAll(".btn-li").forEach(function (btn) {
+        btn.classList.add("d-flex");
+        btn.classList.add("justify-content-center");
+      });
+      document.querySelector(".feedback-img").style.display = "none";
+    } else {
+      document.getElementById("features2").style.display = "none";
+      document.getElementById("features").style.display = "block";
+    }
+
+
+  </script>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+
+</body>
+
+</html>
